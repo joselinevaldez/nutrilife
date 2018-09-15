@@ -129,15 +129,20 @@
 .btn-signin{
     background-color: rgb(104, 145, 162);
 }
+
+.btn-google:active,
+.btn-google:focus,
 .btn-google:hover{
     background-color:rgb(243, 44, 44);
+    height: 37px;
 }
 
 
 .btn.btn-signin:hover,
 .btn.btn-signin:active,
 .btn.btn-signin:focus {
-    background-color: rgb(12, 97, 33);
+    background-color: rgb(87, 132, 151);
+    height: 37px;
 }
 
 .forgot-password {
@@ -147,5 +152,6 @@
 .forgot-password:hover,
 .forgot-password:active,
 .forgot-password:focus{
-    color: rgb(12, 97, 33);
+    color: rgb(69, 111, 129);
+   
 }
